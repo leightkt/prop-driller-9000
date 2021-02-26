@@ -7,6 +7,7 @@ function Transformer(props) {
       className = 'transformer'
       src = {props.robot.url}
       alt = {props.robot.name}
+      onClick={() => props.changeState()}
     />
   );
 }

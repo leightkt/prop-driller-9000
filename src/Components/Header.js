@@ -5,7 +5,6 @@ import React from 'react';
 function Header(props) {
 
   const showTransformers = () => {
-    console.log("clicked")
     props.updateState()
   }
 

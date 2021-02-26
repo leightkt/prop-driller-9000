@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Transformer from '../Components/Transformer'
 
 class TransformersSection extends Component {
 
   render() {
     return (
       <section className = "transformers-section">
-        {/* Transformers here */}
+        {this.props.transformers.map((transformer) => <Transformer robot={transformer} key={transformer.id}/>)}
       </section>
     );
   }

@@ -1,20 +1,20 @@
 # Welcome to Prop Driller 9000!
 
-## Step 1
+## Step 1 ****************
 ![Step 1](/src/assets/Step_1.png)
 * Get the logo to show up in the header!
 * Use the given component needed.
 End of Step 1
 ---
 
-## Step 2
+## Step 2*******************
 ![Step 2](/src/assets/Step_2.png)
 * Get all three of the proptimusii to render on the screen as well!
 * Use the given container and component needed.
 End of Step 2
 ---
 
-## Step 3
+## Step 3*******************
 ![Step 3](/src/assets/Step_3_gif.gif)
 * The container showing all the proptimusii should not appear when the page loads.
 * When the logo is clicked, all of the proptimusii should appear.

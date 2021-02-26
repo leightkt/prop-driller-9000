@@ -1,11 +1,20 @@
 import React from 'react';
+// import { render } from 'react-dom';
 
-function Header() {
+
+function Header(props) {
+
+  const showTransformers = () => {
+    console.log("clicked")
+    props.updateState()
+  }
 
   return (
-    <header>
+    <header
+    onClick={() => showTransformers()}
+    >
       <img
-        src = ""
+        src = {props.logo}
         alt = "logo"
       />
     </header>
